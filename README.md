@@ -23,7 +23,6 @@ a trading assistant chatbot.
 -   Financial evaluation metrics
 -   Trading assistant chatbot
 
-
 ## Problem Formulation
 
 State: - Market features + portfolio state
@@ -32,21 +31,16 @@ Action: - Continuous \[-1, 1\] per asset
 
 Reward: reward = Δ(net worth) - transaction_cost
 
-
-## Project Structure
-
-realtimetrading/ ├── data/ ├── env/ ├── agents/ ├── training/ ├──
-evaluation/ ├── chatbot/ ├── notebooks/ ├── train.py ├── evaluate.py ├──
-chatbot.py ├── requirements.txt └── README.md
-
-
-## 📊 Data
+## Data
 
 -   Source: Alpha Vantage
 -   Train: 2014--2020
 -   Validation: 2021
 -   Test: 2022--2025
+NOTE: stock data is not included due to size.
 
+To reproduce:
+- Use Alpha Vantage API
 
 ##  Evaluation
 
@@ -54,7 +48,6 @@ chatbot.py ├── requirements.txt └── README.md
 -   Sharpe ratio
 -   Volatility
 -   Reward curve
-
 
 ## Future Work
 
