@@ -34,9 +34,10 @@ Reward: reward = Δ(net worth) - transaction_cost
 ## Data
 
 -   Source: Alpha Vantage
--   Train: 2014--2020
+-   Train: 2014-2020
 -   Validation: 2021
--   Test: 2022--2025
+-   Test: 2022-2025
+
 NOTE: stock data is not included due to size.
 
 To reproduce:
